@@ -2,7 +2,7 @@ name := "dependency-parser"
 
 organization := "software.reinvent"
 
-version := "1.0.0-SNAPSHOT"
+version := "1.0.0"
 
 libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.2.1",
@@ -56,7 +56,7 @@ resolvers += Resolver.mavenLocal
 //autoScalaLibrary := false
 
 
-jdkPackagerType := "installer"
+jdkPackagerType := "all"
 
 jdkPackagerToolkit := JavaFXToolkit
 
