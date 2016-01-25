@@ -2,7 +2,7 @@ name := "dependency-parser"
 
 organization := "software.reinvent"
 
-version := "1.0.0"
+version := "1.1.0-SNAPSHOT"
 
 libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.2.1",
